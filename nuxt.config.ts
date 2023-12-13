@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/guide/directory-structure/nuxt.config#nuxt-config-file
 export default defineNuxtConfig({
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
   content: {
     documentDriven: true
   }

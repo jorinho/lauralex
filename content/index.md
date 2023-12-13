@@ -1,10 +1,12 @@
-# Document Driven
-
-
-This page corresponds to the `/` route of your website. You can delete it or create another file in the `content/` directory.
-
-Try to navigate to [/about](/about).
-
+---
+layout: custom
 ---
 
-Look at the [Document Driven documentation](https://content.nuxtjs.org/guide/writing/document-driven) to learn more.
+# Laurane et alex
+
+Hé ! On se marie !
+
+Maintenant que tu as toutes les infos pour le déroulement de la journée …
+
+… voilà quelques idées cadeaux auxquels tu es libre de participer (ou pas !)
+

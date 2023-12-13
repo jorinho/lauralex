@@ -5,12 +5,8 @@
         <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
           Hey! On se marie!
         </h2>
-
-        <p class="text-gray-500 md:mt-4">
-          <slot />
-        </p>
-
-        <div class="mt-4 md:mt-8  ">
+        <slot class="text-gray-500 md:mt-4"/>
+        <div class="mt-4 md:mt-8">
           <a
               href="#"
               class="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
@@ -28,3 +24,5 @@
     />
   </section>
 </template>
+<script setup lang="ts">
+</script>

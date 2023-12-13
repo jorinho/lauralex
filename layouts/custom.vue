@@ -23,6 +23,19 @@
         class="w-full object-cover sm:h-full"
     />
   </section>
+  <section class="flex flex-row justify-center">
+    <div class="grid md:grid-cols-3 md:max-w-7xl">
+      <div class="flex justify-center flex-row p-8"><img src="/img/image2.png" alt="" class="block max-w-full max-h-full" /></div>
+      <div class="flex justify-center flex-row p-8"><img src="/img/image3.png" alt="" class="block max-w-full max-h-full" /></div>
+      <div class="flex justify-center flex-row p-8"><img src="/img/image4.png" alt="" class="block max-w-full max-h-full" /></div>
+      <div class="flex justify-center flex-row p-8"><img src="/img/image5.png" alt="" class="block max-w-full max-h-full" /></div>
+      <div class="flex justify-center flex-row p-8"><img src="/img/image6.png" alt="" class="block max-w-full max-h-full" /></div>
+      <div class="flex justify-center flex-row p-8"><img src="/img/image7.png" alt="" class="block max-w-full max-h-full" /></div>
+      <div class="flex justify-center flex-row p-8"><img src="/img/image8.png" alt="" class="block max-w-full max-h-full" /></div>
+      <div class="flex justify-center flex-row p-8"><img src="/img/image9.png" alt="" class="block max-w-full max-h-full" /></div>
+      <div class="flex justify-center flex-row p-8"><img src="/img/image11.png" alt="" class="block max-w-full max-h-full" /></div>
+    </div>
+  </section>
 </template>
 <script setup lang="ts">
 </script>

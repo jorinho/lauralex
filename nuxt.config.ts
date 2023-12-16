@@ -3,5 +3,6 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
   content: {
     documentDriven: true
-  }
+  },
+  css: ['@/assets/styles/main.pcss'],
 })

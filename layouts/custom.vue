@@ -1,41 +1,66 @@
 <template>
-  <section class="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
-    <div class="p-8 md:p-12 lg:px-16 lg:py-24">
-      <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-        <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
-          Hey! On se marie!
-        </h2>
-        <slot class="text-gray-500 md:mt-4"/>
-        <div class="mt-4 md:mt-8">
-          <a
-              href="#"
-              class="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
-          >
-            Jette un oeil!
-          </a>
-        </div>
+  <h1 class="font-display text-center text-6xl font-bold text-white mx-8 md:text-8xl my-4 md:my-16">
+    Hey ! On se marie !
+  </h1>
+  <div class="flex flex-row justify-center">
+    <div class="border-8 border-red-900 rounded-3xl justify-between overflow-hidden w-[90vw] md:w-[75vw]">
+      <img
+          alt="Les Gorons"
+          src="/img/image1.jpg"
+          class="w-full object-cover sm:h-full"
+      />
+    </div>
+  </div>
+  <div class="flex flex-row justify-center text-white md:my-16 text-2xl m-8">
+    <slot/>
+  </div>
+  <section class="flex flex-row justify-center px-12">
+    <div class="grid md:grid-cols-3 md:max-w-7xl gap-8 py-8">
+      <div class="flex flex-col p-8 bg-white border-8 border-red-900 rounded-3xl justify-between">
+        <img src="/img/image2.png" alt="" class="block max-w-full max-h-full" />
+        <label class="text-center text-red-900">un nouveau matelas</label>
+      </div>
+      <div class="flex flex-col p-8 bg-white border-8 border-red-900 rounded-3xl justify-between">
+        <img src="/img/image3.png" alt="" class="block max-w-full max-h-full" />
+        <label class="text-center text-red-900">cours de cuisine en couple</label>
+      </div>
+      <div class="flex flex-col p-8 bg-white border-8 border-red-900 rounded-3xl justify-between">
+        <img src="/img/image4.png" alt="" class="block max-w-full max-h-full" />
+        <label class="text-center text-red-900">nouvelle vaisselle</label>
+      </div>
+      <div class="flex flex-col p-8 bg-white border-8 border-red-900 rounded-3xl justify-between">
+        <img src="/img/image5.png" alt="" class="block max-w-full max-h-full" />
+        <label class="text-center text-red-900">voyage de noces en Laponie</label>
+      </div>
+      <div class="flex flex-col p-8 bg-white border-8 border-red-900 rounded-3xl justify-between">
+        <img src="/img/image7.png" alt="" class="block max-w-full max-h-full" />
+        <label class="text-center text-red-900">future moto Alex</label>
+      </div>
+      <div class="flex flex-col p-8 bg-white border-8 border-red-900 rounded-3xl justify-between">
+        <img src="/img/image9.png" alt="" class="block max-w-full max-h-full" />
+        <label class="text-center text-red-900">futur appart/maison</label>
+      </div>
+      <div class="flex flex-col p-8 bg-white border-8 border-red-900 rounded-3xl justify-between">
+        <img src="/img/image11.png" alt="" class="block max-w-full max-h-full" />
+        <label class="text-center text-red-900">futur bus/voiture familiale</label>
       </div>
     </div>
-
-    <img
-        alt="Les Gorons"
-        src="/img/image1.jpg"
-        class="w-full object-cover sm:h-full"
-    />
   </section>
-  <section class="flex flex-row justify-center">
-    <div class="grid md:grid-cols-3 md:max-w-7xl">
-      <div class="flex justify-center flex-row p-8"><img src="/img/image2.png" alt="" class="block max-w-full max-h-full" /></div>
-      <div class="flex justify-center flex-row p-8"><img src="/img/image3.png" alt="" class="block max-w-full max-h-full" /></div>
-      <div class="flex justify-center flex-row p-8"><img src="/img/image4.png" alt="" class="block max-w-full max-h-full" /></div>
-      <div class="flex justify-center flex-row p-8"><img src="/img/image5.png" alt="" class="block max-w-full max-h-full" /></div>
-      <div class="flex justify-center flex-row p-8"><img src="/img/image6.png" alt="" class="block max-w-full max-h-full" /></div>
-      <div class="flex justify-center flex-row p-8"><img src="/img/image7.png" alt="" class="block max-w-full max-h-full" /></div>
-      <div class="flex justify-center flex-row p-8"><img src="/img/image8.png" alt="" class="block max-w-full max-h-full" /></div>
-      <div class="flex justify-center flex-row p-8"><img src="/img/image9.png" alt="" class="block max-w-full max-h-full" /></div>
-      <div class="flex justify-center flex-row p-8"><img src="/img/image11.png" alt="" class="block max-w-full max-h-full" /></div>
-    </div>
-  </section>
+  <div class="flex flex-row justify-center text-white md:my-16 text-2xl m-8">
+    On se réjouit de partager cette journée avec toi !<br>À bientôt !
+  </div>
 </template>
 <script setup lang="ts">
+useHead({
+  bodyAttrs: {
+    class: 'bg-page'
+  },
+})
 </script>
+<style>
+.bg-page {
+  background: #5A3F37;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C7744, #5A3F37);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C7744, #5A3F37); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+</style>

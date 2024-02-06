@@ -47,6 +47,21 @@
     </div>
   </section>
   <div class="flex flex-row justify-center text-white md:my-16 text-2xl m-8">
+    <div>
+      Notre compte bancaire dans un paradis fiscal:<br><br>
+      <p class="mb-2">iban: CH67 8080 8005 9900 4950 1</p>
+      Laurane Poulin<br>
+      Rue du Château 3<br>
+      2023 Gorgier
+    </div>
+  </div>
+  <div class="flex flex-row justify-center text-white md:my-16 text-2xl m-8">
+    <div>
+      <p class="mb-2">Tu peux aussi utiliser Twint avec ce numéro (c'est le numéro de Laurane):</p>
+      <p class="text-center">079 920 94 60</p>
+    </div>
+  </div>
+  <div class="flex flex-row justify-center text-white md:my-16 text-2xl m-8">
     On se réjouit de partager cette journée avec toi !<br>À bientôt !
   </div>
 </template>
